@@ -1,3 +1,7 @@
+# Ignore following folders: documents, data_viz
+documents/ 
+data_viz/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
