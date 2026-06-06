@@ -31,7 +31,6 @@ print(fl_elections.head())
 print(f'fl rows: {fl_elections.shape[0]}')
 print(f'fl col names & data types: \n{fl_elections.dtypes}')
 print(f'fl years: {sorted(fl_elections['year'].unique())}')
-print(f'fl unique counties: {fl_elections['county_name'].nunique()}')
 
 #### NOTE: multiple states have the same county names!! calculating winners for entire us using county_name will cause issues - use fips!!!
 
